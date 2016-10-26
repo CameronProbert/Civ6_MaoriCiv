@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited by Rob Riley -->
+<GameInfo>
+	<Types>
+		<Row Type="LEADER_MAUI" Kind="KIND_LEADER"/>
+		<Row Type="TRAIT_LEADER_TAPU" Kind="KIND_TRAIT"/>
+	</Types>
+	<Leaders>
+		<Row LeaderType="LEADER_MAUI" Name="LOC_LEADER_MAUI_NAME" InheritFrom="LEADER_DEFAULT" SceneLayers="4"/>
+	</Leaders>
+	<LeaderTraits>
+		<Row LeaderType="LEADER_MAUI" TraitType="TRAIT_LEADER_TAPU"/>
+	</LeaderTraits>
+	<Traits>
+		<Row TraitType="TRAIT_LEADER_TAPU" Name="LOC_TRAIT_LEADER_TAPU_NAME" Description="LOC_TRAIT_LEADER_TAPU_DESCRIPTION"/>
+	</Traits>
+	<TraitModifiers>
+		<Row TraitType="TRAIT_LEADER_TAPU" ModifierId="TRAIT_INCOMING_TRADE_GAIN_GOLD"/>
+		<Row TraitType="TRAIT_LEADER_TAPU" ModifierId="TRAIT_DIPLOMATIC_GOVERNMENT_SLOT"/>
+	</TraitModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>TRAIT_DIPLOMATIC_GOVERNMENT_SLOT</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CULTURE_ADJUST_GOVERNMENT_SLOTS_MODIFIER</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>TRAIT_DIPLOMATIC_GOVERNMENT_SLOT</ModifierId>
+			<Name>GovernmentSlotType</Name>
+			<Value>SLOT_DIPLOMATIC</Value>
+		</Row>
+	</ModifierArguments>
+</GameInfo>

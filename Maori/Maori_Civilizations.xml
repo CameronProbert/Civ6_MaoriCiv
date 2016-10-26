@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by matthew beach (Firaxis Games) -->
+<GameInfo>
+	<Types>
+		<Row Type="CIVILIZATION_MAORI" Kind="KIND_CIVILIZATION"/>
+   		<Row Type="TRAIT_CIVILIZATION_MANA" Kind="KIND_TRAIT" />
+		<Row Type="TRAIT_CIVILIZATION_BUILDING_MARAE" Kind="KIND_TRAIT" />
+		<Row Type="TRAIT_CIVILIZATION_UNIT_WARRIOR" Kind="KIND_TRAIT" />
+	</Types>
+	<Civilizations>
+		<Row CivilizationType="CIVILIZATION_MAORI" Name="LOC_CIVILIZATION_MAORI_NAME" Description="LOC_CIVILIZATION_MAORI_DESCRIPTION" Adjective="LOC_CIVILIZATION_MAORI_ADJECTIVE" StartingCivilizationLevelType="CIVILIZATION_LEVEL_FULL_CIV" RandomCityNameDepth="3" Ethnicity="ETHNICITY_AFRICAN"/>
+	</Civilizations>
+	<CivilizationLeaders>
+		<Row CivilizationType="CIVILIZATION_MAORI" LeaderType="LEADER_MAUI" CapitalName="Wellington"/>
+	</CivilizationLeaders>
+	<Modifiers>
+		<Row>
+			<ModifierId>TRAIT_GOLD_PER_CITY_FOLLOWING_RELIGION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_RELIGION_ADD_PLAYER_BELIEF_YIELD</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_FLOODPLAINS_COMMERCIALHUB_ADJACENCY</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_FEATURE_ADJACENCY</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_OASIS_COMMERCIALHUB_ADJACENCY</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_FEATURE_ADJACENCY</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>TRAIT_GOLD_PER_CITY_FOLLOWING_RELIGION</ModifierId>
+			<Name>BeliefYieldType</Name>
+			<Value>BELIEF_YIELD_PER_CITY</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_GOLD_PER_CITY_FOLLOWING_RELIGION</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_GOLD_PER_CITY_FOLLOWING_RELIGION</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_GOLD_PER_CITY_FOLLOWING_RELIGION</ModifierId>
+			<Name>PerXItems</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_FLOODPLAINS_COMMERCIALHUB_ADJACENCY</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_COMMERCIAL_HUB</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_FLOODPLAINS_COMMERCIALHUB_ADJACENCY</ModifierId>
+			<Name>FeatureType</Name>
+			<Value>FEATURE_FLOODPLAINS</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_FLOODPLAINS_COMMERCIALHUB_ADJACENCY</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_FLOODPLAINS_COMMERCIALHUB_ADJACENCY</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_FLOODPLAINS_COMMERCIALHUB_ADJACENCY</ModifierId>
+			<Name>Description</Name>
+			<Value>+{1_num} [ICON_Gold] gold for each adjacent floodplains tile.</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_OASIS_COMMERCIALHUB_ADJACENCY</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_COMMERCIAL_HUB</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_OASIS_COMMERCIALHUB_ADJACENCY</ModifierId>
+			<Name>FeatureType</Name>
+			<Value>FEATURE_OASIS</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_OASIS_COMMERCIALHUB_ADJACENCY</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_OASIS_COMMERCIALHUB_ADJACENCY</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_OASIS_COMMERCIALHUB_ADJACENCY</ModifierId>
+			<Name>Description</Name>
+			<Value>+{1_num} [ICON_Gold] gold for each adjacent oasis.</Value>
+		</Row>
+	</ModifierArguments>
+	<Traits>
+		<Row TraitType="TRAIT_CIVILIZATION_MANA" Name="LOC_TRAIT_CIVILIZATION_MANA_NAME" Description="LOC_TRAIT_CIVILIZATION_MANA_DESCRIPTION"/>
+		<Row TraitType="TRAIT_CIVILIZATION_BUILDING_MARAE" Name="LOC_BUILDING_MARAE_NAME" Description="LOC_BUILDING_MARAE_DESCRIPTION"/>
+		<Row TraitType="TRAIT_CIVILIZATION_UNIT_MAORIWARRIOR" Name="LOC_UNIT_MAORIWARRIOR_NAME" Description="LOC_UNIT_MAORIWARRIOR_DESCRIPTION"/>
+	</Traits>
+	<TraitModifiers>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_MANA</TraitType>
+			<ModifierId>TRAIT_GOLD_PER_CITY_FOLLOWING_RELIGION</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_MANA</TraitType>
+			<ModifierId>TRAIT_FLOODPLAINS_COMMERCIALHUB_ADJACENCY</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_MANA</TraitType>
+			<ModifierId>TRAIT_OASIS_COMMERCIALHUB_ADJACENCY</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_MANA</TraitType>
+			<ModifierId>TRAIT_FLOODPLAINS_VALID_COMMERCIAL_HUB</ModifierId>
+		</Row>
+	</TraitModifiers>
+	<CivilizationTraits>
+		<Row CivilizationType="CIVILIZATION_MAORI" TraitType="TRAIT_CIVILIZATION_MANA"/>
+		<Row CivilizationType="CIVILIZATION_MAORI" TraitType="TRAIT_CIVILIZATION_BUILDING_MARAE"/>
+		<Row CivilizationType="CIVILIZATION_MAORI" TraitType="TRAIT_CIVILIZATION_UNIT_MAORIWARRIOR"/>
+	</CivilizationTraits>
+	<CityNames>
+		<Row CivilizationType="CIVILIZATION_MAORI" CityName="Wellington"/>
+		<Row CivilizationType="CIVILIZATION_MAORI" CityName="Kaikoura"/>
+		<Row CivilizationType="CIVILIZATION_MAORI" CityName="Dunedin"/>
+		<Row CivilizationType="CIVILIZATION_MAORI" CityName="Auckland"/>
+		<Row CivilizationType="CIVILIZATION_MAORI" CityName="Christchurch"/>
+		<Row CivilizationType="CIVILIZATION_MAORI" CityName="Blenheim"/>
+		<Row CivilizationType="CIVILIZATION_MAORI" CityName="Napier"/>
+		<Row CivilizationType="CIVILIZATION_MAORI" CityName="Hamilton"/>
+		<Row CivilizationType="CIVILIZATION_MAORI" CityName="Timaru"/>
+		<Row CivilizationType="CIVILIZATION_MAORI" CityName="Bluff"/>
+		<Row CivilizationType="CIVILIZATION_MAORI" CityName="Upper Hutt"/>
+		<Row CivilizationType="CIVILIZATION_MAORI" CityName="Masterton"/>
+		<Row CivilizationType="CIVILIZATION_MAORI" CityName="Dannevirke"/>
+		<Row CivilizationType="CIVILIZATION_MAORI" CityName="Woodville"/>
+		<Row CivilizationType="CIVILIZATION_MAORI" CityName="Picton"/>
+		<Row CivilizationType="CIVILIZATION_MAORI" CityName="Hastings"/>
+		<Row CivilizationType="CIVILIZATION_MAORI" CityName="Tauranga"/>
+		<Row CivilizationType="CIVILIZATION_MAORI" CityName="Palmerston North"/>
+		<Row CivilizationType="CIVILIZATION_MAORI" CityName="Nelson"/>
+		<Row CivilizationType="CIVILIZATION_MAORI" CityName="Rotorua"/>
+		<Row CivilizationType="CIVILIZATION_MAORI" CityName="New Plymouth"/>
+		<Row CivilizationType="CIVILIZATION_MAORI" CityName="Whangarei"/>
+		<Row CivilizationType="CIVILIZATION_MAORI" CityName="Invercargill"/>
+		<Row CivilizationType="CIVILIZATION_MAORI" CityName="Whanganui"/>
+		<Row CivilizationType="CIVILIZATION_MAORI" CityName="Gisborne"/>
+		<Row CivilizationType="CIVILIZATION_MAORI" CityName="Otaki"/>
+		<Row CivilizationType="CIVILIZATION_MAORI" CityName="Waikanae"/>
+		<Row CivilizationType="CIVILIZATION_MAORI" CityName="Raumati"/>
+		<Row CivilizationType="CIVILIZATION_MAORI" CityName="Paraparaumu"/>
+		<Row CivilizationType="CIVILIZATION_MAORI" CityName="Paekakariki"/>
+		<Row CivilizationType="CIVILIZATION_MAORI" CityName="Cambridge"/>
+		<Row CivilizationType="CIVILIZATION_MAORI" CityName="Pukekohe"/>
+		<Row CivilizationType="CIVILIZATION_MAORI" CityName="Tokoroa"/>
+	</CityNames>
+	<StartBiasTerrains>
+		<Row CivilizationType="CIVILIZATION_MAORI" TerrainType="TERRAIN_COAST" Tier="1"/>
+	</StartBiasTerrains>
+	<StartBiasRivers>
+		<Row CivilizationType="CIVILIZATION_MAORI" Tier="4"/>
+	</StartBiasRivers>
+</GameInfo>

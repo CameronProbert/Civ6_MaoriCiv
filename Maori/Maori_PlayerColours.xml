@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by matthew beach (Firaxis Games) -->
+<GameInfo>
+	<PlayerColors>
+			<Row>
+				<Type>LEADER_MAUI</Type>
+				<Usage>Unique</Usage>
+				<PrimaryColor>COLOR_PLAYER_MAORI_PRIMARY</PrimaryColor>
+				<SecondaryColor>COLOR_PLAYER_MAORI_SECONDARY</SecondaryColor>
+				<TextColor>COLOR_PLAYER_WHITE_TEXT</TextColor>
+			</Row>
+	</PlayerColors>
+</GameInfo>

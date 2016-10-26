@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Ed Beach (Firaxis Games) -->
+<GameData>
+  <LocalizedText>
+  <!--Civilizations/Leaders -->
+    <Row Tag="LOC_CIVILIZATION_MAORI_NAME" Language="en_US">
+      <Text>Maori</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_MAUI_NAME" Language="en_US">
+      <Text>Maui</Text>
+    </Row>
+   <!--Traits -->
+   <Row Tag="LOC_TRAIT_CIVILIZATION_MANA_NAME" Language="en_US">
+      <Text>Mana</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_CIVILIZATION_MANA_DESCRIPTION" Language="en_US">
+      <Text>Floodplains do not block placement of commercial hubs, which are provided with an adjacency bonus from all floodplain and oasis tiles. +1 [ICON_Gold] gold for each city following Maori's religion. (Want to change this to all districts give +1 food and +1 culture.)</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_LEADER_TAPU_NAME" Language="en_US">
+      <Text>Tapu</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_LEADER_TAPU_DESCRIPTION" Language="en_US">
+      <Text>Gains an additional diplomatic government slot. Incoming trade routes from other civilizations provide +1 [ICON_Food] food and +1 [ICON_Culture] culture for the Maori.</Text>
+    </Row>
+   <Row Tag="LOC_BUILDING_MARAE_NAME" Language="en_US">
+      <Text>Marae</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_MARAE_DESCRIPTION" Language="en_US">
+      <Text>Monument replacement which grants +1 housing in addition to +1 [ICON_Faith] faith and [ICON_Culture] culture.</Text>
+    </Row>
+   <Row Tag="LOC_UNIT_MAORIWARRIOR_NAME" Language="en_US">
+      <Text>Maori Warrior</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_MAORIWARRIOR_DESCRIPTION" Language="en_US">
+      <Text>The Maori Warrior has a higher combat strength than the warrior it replaces, and can build fishing boats twice. However, it costs more than a regular warrior.</Text>
+    </Row>
+  </LocalizedText>
+</GameData>

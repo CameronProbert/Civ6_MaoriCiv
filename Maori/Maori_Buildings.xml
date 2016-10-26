@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Ed Beach (Firaxis Games) -->
+<GameInfo>
+	<Types>
+		<Row Type="BUILDING_MARAE" Kind="KIND_BUILDING"/>
+	</Types>
+	<BuildingReplaces>
+		<Row CivUniqueBuildingType="BUILDING_MARAE" ReplacesBuildingType="BUILDING_MONUMENT"/>
+	</BuildingReplaces>
+	<Buildings>
+		<Row BuildingType="BUILDING_MARAE" Name="LOC_BUILDING_MARAE_NAME" Description="LOC_BUILDING_MARAE_DESCRIPTION" PrereqDistrict="DISTRICT_CITY_CENTER" PurchaseYield="YIELD_GOLD" Cost="60" Housing="1" TraitType="TRAIT_CIVILIZATION_BUILDING_MARAE"/>
+	</Buildings>
+	<Building_YieldChanges>
+		<Row BuildingType="BUILDING_MARAE" YieldType="YIELD_CULTURE" YieldChange="3"/>
+		<Row BuildingType="BUILDING_MARAE" YieldType="YIELD_FAITH" YieldChange="1"/>
+	</Building_YieldChanges>
+</GameInfo>

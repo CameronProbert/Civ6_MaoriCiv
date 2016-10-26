@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by matthew beach (Firaxis Games) -->
+<GameInfo>
+	<Colors>
+		<Row>
+			<Type>COLOR_PLAYER_MAORI_PRIMARY</Type>
+			<Red>0.70</Red>
+			<Green>0.0</Green>
+			<Blue>0.0</Blue>
+			<Alpha>1</Alpha>
+		</Row>
+		<Row>
+			<Type>COLOR_PLAYER_MAORI_SECONDARY</Type>
+			<Red>0.5</Red>
+			<Green>0.17</Green>
+			<Blue>0.0</Blue>
+			<Alpha>1</Alpha>
+		</Row>
+	</Colors>
+</GameInfo>

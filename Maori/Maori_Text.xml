@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Ed Beach (Firaxis Games) -->
+<GameData>
+  <LocalizedText>
+    <Row Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_MARAE_CHAPTER_HISTORY_PARA_1" Language="en_US">
+      <Text>A Marae is a place where the culture can be celebrated, where the Māori language can be spoken, where intertribal obligations can be met, where customs can be explored and debated, where family occasions such as birthdays can be held, and where important ceremonies, such as welcoming visitors or farewelling the dead (tangihanga), can be performed. Like the related institutions of old Polynesia, the marae is a wāhi tapu, a 'sacred place' which carries great cultural meaning.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_MARAE_CHAPTER_HISTORY_PARA_2" Language="en_US">
+      <Text>In Māori usage, the marae atea (often shortened to marae) is the open space in front of the wharenui or meeting house (literally "large building"). However, the term marae is generally used to refer to the whole complex, including the buildings and the open space. This area is used for pōwhiri – welcome ceremonies featuring oratory. Some marae do not allow women to perform oratory there. The meeting house is the locale for important meetings, sleepovers, and craft and other cultural activities. The wharekai (dining hall) is used primarily for communal meals, but other activities may be carried out there. Many of the words associated with marae in tropical Polynesia are retained in the Māori context. For example, the word paepae refers to the bench where the speakers sit; this means it retains its sacred and ceremonial associations. Marae occur in various sizes, with some wharenui being a bit bigger than a double garage and some being larger than a town hall.</Text>
+    </Row>
+  <!--Civilizations/Leaders -->
+    <Row Tag="LOC_CIVILIZATION_MAORI_NAME" Language="en_US">
+      <Text>Maori</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_MAUI_NAME" Language="en_US">
+      <Text>Maui</Text>
+    </Row>
+   <!--Traits -->
+   <Row Tag="LOC_TRAIT_CIVILIZATION_MANA_NAME" Language="en_US">
+      <Text>Mana</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_CIVILIZATION_MANA_DESCRIPTION" Language="en_US">
+      <Text>Floodplains do not block placement of commercial hubs, which are provided with an adjacency bonus from all floodplain and oasis tiles. +1 [ICON_Gold] gold for each city following Maori's religion. (Want to change this to all districts give +1 food and +1 culture.)</Text>
+    </Row>
+   <Row Tag="LOC_BUILDING_MARAE_NAME" Language="en_US">
+      <Text>Marae</Text>
+    </Row>
+    <Row Tag="LOC_BUILDING_MARAE_DESCRIPTION" Language="en_US">
+      <Text>Monument replacement which grants +1 housing in addition to +1 [ICON_Faith] faith and [ICON_Culture] culture.</Text>
+    </Row>
+   <Row Tag="LOC_UNIT_MAORIWARRIOR_NAME" Language="en_US">
+      <Text>Maori Warrior</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_MAORIWARRIOR_DESCRIPTION" Language="en_US">
+      <Text>The Maori Warrior has a higher combat strength than the warrior it replaces, and can build fishing boats twice. However, it costs more than a regular warrior.</Text>
+    </Row>
+	<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_MAORIWARRIOR_CHAPTER_HISTORY_PARA_1" Language="en_US">
+	<Text>To survive, the Maori tribes needed powerful warriors. Without these men, the tribes will stagnate and eventually fall prey to a more vigorous neighbour.</Text>
+	</Row>
+    <Row Tag="LOC_TRAIT_LEADER_TAPU_NAME" Language="en_US">
+      <Text>Tapu</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_LEADER_TAPU_DESCRIPTION" Language="en_US">
+      <Text>Gains an additional diplomatic government slot. Incoming trade routes from other civilizations provide +1 [ICON_Food] food and +1 [ICON_Culture] culture for the Maori.</Text>
+    </Row>
+   <Row Tag="LOC_CIVILIZATION_MAORI_DESCRIPTION" Language="en_US">
+      <Text>Maori Civilization</Text>
+    </Row>
+   <Row Tag="LOC_LOADING_INFO_LEADER_MAUI" Language="en_US">
+      <Text>Greetings upon thee, oh mighty Maui, demigod of the Pacific. Stories are told of how you caught New Zealand and slowed the sun. Maui, your people look to you to restore the glorious trade networks which the Maori had across the seas.  Will you lead your people to build a honourable civilization?  Can you build a civilization that will stand the test of time?</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_MAUI_TITLE" Language="en_US">
+	<Text>Maui</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_MAUI_SUBTITLE" Language="en_US">
+	<Text>Demigod of the Land of Maori</Text>
+    </Row>			
+    <Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_MAUI_CHAPTER_HISTORY_PARA_1" Language="en_US">
+	<Text>Tales of Maui have been passed down orally throughout Maori history. With the arrival of the Europeans and the English alphabet, Maui's tales have been recorded for all time.</Text>
+    </Row>
+    <Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_MAORI_CHAPTER_HISTORY_PARA_1" Language="en_US">
+	<Text>According to legend, Māori came to New Zealand from Hawaiki. Current anthropological thinking places their origin in tropical eastern Polynesia, mostly likely from the Southern Cook or Society Islands region, and that they arrived by deliberate voyages in seagoing canoes – possibly double-hulled and probably sail-rigged. These settlers probably arrived by about AD 1280 (see Māori origins). Their language and its dialects developed in isolation until the 19th century.[NEWLINE][NEWLINE]Since about 1800, the Māori language has had a tumultuous history. It started this period as the predominant language of New Zealand. In the 1860s, it became a minority language in the shadow of the English spoken by many settlers, missionaries, gold seekers, and traders. In the late 19th century, the colonial governments of New Zealand and its provinces introduced an English-style school system for all New Zealanders. From the mid 1800s, due to the Native Schools Act and later the Native Schools Code, the use of Māori in schools was slowly filtered out of the curriculum in order to become more European.Increasing numbers of Māori people learned English.[NEWLINE][NEWLINE]Until the Second World War (1939–1945), most Māori people spoke Māori as their first language. Worship took place in Māori; it functioned as the language of Māori homes; Māori politicians conducted political meetings in Māori; and some literature and many newspapers appeared in Māori.</Text>
+    </Row>
+  </LocalizedText>
+</GameData>

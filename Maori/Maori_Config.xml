@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GameInfo>
+	<Players>
+  <Row Domain="StandardPlayers" CivilizationType="CIVILIZATION_MAORI" LeaderType="LEADER_MAUI" CivilizationName="LOC_CIVILIZATION_MAORI_NAME" CivilizationIcon="ICON_CIVILIZATION_EGYPT" LeaderName="LOC_LEADER_MAUI_NAME" LeaderIcon="ICON_LEADER_CLEOPATRA" CivilizationAbilityName="LOC_TRAIT_CIVILIZATION_MANA_NAME" CivilizationAbilityDescription="LOC_TRAIT_CIVILIZATION_MANA_DESCRIPTION" CivilizationAbilityIcon="ICON_CIVILIZATION_EGYPT" LeaderAbilityName="LOC_TRAIT_LEADER_TAPU_NAME" LeaderAbilityDescription="LOC_TRAIT_LEADER_TAPU_DESCRIPTION" LeaderAbilityIcon="ICON_LEADER_CLEOPATRA"/>
+	</Players>
+	<PlayerItems>
+		<Row CivilizationType="CIVILIZATION_MAORI" LeaderType="LEADER_MAUI" Type="UNIT_MAORIWARRIOR" Icon="ICON_UNIT_WARRIOR" Name="LOC_UNIT_MAORIWARRIOR_NAME" Description="LOC_UNIT_MAORIWARRIOR_DESCRIPTION" SortIndex="10" />
+		<Row CivilizationType="CIVILIZATION_MAORI" LeaderType="LEADER_MAUI" Type="BUILDING_MARAE" Icon="ICON_BUILDING_MONUMENT" Name="LOC_BUILDING_MARAE_NAME" Description="LOC_BUILDING_MARAE_DESCRIPTION" SortIndex="20" />
+	</PlayerItems>
+</GameInfo>
+
+

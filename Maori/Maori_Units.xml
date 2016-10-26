@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Ed Beach (Firaxis Games) -->
+<GameInfo>
+	<Types>
+		<Row Type="UNIT_MAORIWARRIOR" Kind="KIND_UNIT"/>
+	</Types>
+	<UnitAiInfos>
+		<Row UnitType="UNIT_MAORIWARRIOR" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_MAORIWARRIOR" AiType="UNITTYPE_MELEE"/>
+	</UnitAiInfos>
+	<UnitReplaces>
+		<Row CivUniqueUnitType="UNIT_MAORIWARRIOR" ReplacesUnitType="UNIT_WARRIOR"/>
+	</UnitReplaces>
+  	<Units>
+		<Row UnitType="UNIT_MAORIWARRIOR" BaseMoves="2" Cost="48" AdvisorType="ADVISOR_GENERIC" BaseSightRange="2" ZoneOfControl="true" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_UNIT_MAORIWARRIOR_NAME" Description="LOC_UNIT_MAORIWARRIOR_DESCRIPTION" CanCapture="true" PromotionClass="PROMOTION_CLASS_MELEE" Combat="25" MandatoryObsoleteTech="TECH_GUNPOWDER" BuildCharges="2" TraitType="TRAIT_CIVILIZATION_UNIT_MAORIWARRIOR"/>
+  	</Units>
+	<Improvement_ValidBuildUnits>
+		<Row ImprovementType="IMPROVEMENT_FISHING_BOATS" UnitType="UNIT_MAORIWARRIOR"/>
+	</Improvement_ValidBuildUnits>
+</GameInfo>

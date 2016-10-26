@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mod id="0a806d19-cfc8-4054-9e52-4af173416046" version="1">
+	<Properties>
+		<Name>LOC_MOD_TITLE</Name>
+		<Teaser>LOC_MOD_TEASER</Teaser>
+		<Description>LOC_MOD_DESCRIPTION</Description>
+		<Authors>LOC_MOD_AUTHORS</Authors>
+		<SpecialThanks>LOC_MOD_SPECIAL_THANKS</SpecialThanks>
+	</Properties>
+	<Components>
+		<UpdateDatabase id="MAORI_COMPONENT">
+			<Items>
+				<File>Maori_Buildings.xml</File>
+				<File>Maori_Civilizations.xml</File>
+				<File>Maori_Colours.xml</File>
+				<File>Maori_Gossip.xml</File>
+				<File>Maori_Leaders.xml</File>
+				<File>Maori_PlayerColours.xml</File>
+				<File>Maori_Units.xml</File>
+			</Items>
+		</UpdateDatabase>
+		<LocalizedText id="MAORI_TEXT">
+			<Items>
+				<File>Maori_Text.xml</File>
+			</Items>
+		</LocalizedText>
+	</Components>
+	<Settings>
+		<Custom id="MAORI_SETTING">
+			<Items>
+				<File>Maori_Config.xml</File>
+			</Items>
+		</Custom>
+		<LocalizedText id="MAORI_SETTING_TEXT">
+			<Items>
+				<File>Maori_Config_Text.xml</File>
+			</Items>
+		</LocalizedText>
+	</Settings>
+	<LocalizedText>
+		<Text id="LOC_MOD_TITLE">
+			<en_US>Maori civilization</en_US>
+		</Text>
+		<Text id="LOC_MOD_TEASER">
+			<en_US>Play as Maui of the Maori</en_US>
+		</Text>
+		<Text id="LOC_MOD_DESCRIPTION">
+			<en_US>A full civilization with its own uniques</en_US>
+		</Text>
+		<Text id="LOC_MOD_AUTHORS">
+			<en_US>Cameron Probert</en_US>
+		</Text>
+		<Text id="LOC_MOD_SPECIAL_THANKS">
+			<en_US>Firaxis, Rob Riley (for the template)</en_US>
+		</Text>
+	</LocalizedText>
+	<Files>
+		<File>Maori_Buildings.xml</File>
+		<File>Maori_Config.xml</File>
+		<File>Maori_Config_Text.xml</File>
+		<File>Maori_Civilizations.xml</File>
+		<File>Maori_Colours.xml</File>
+		<File>Maori_Gossip.xml</File>
+		<File>Maori_Leaders.xml</File>
+		<File>Maori_PlayerColours.xml</File>
+		<File>Maori_Text.xml</File>
+		<File>Maori_Units.xml</File>
+	</Files>
+</Mod>
